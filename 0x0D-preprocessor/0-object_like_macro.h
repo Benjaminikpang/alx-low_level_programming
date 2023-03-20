@@ -6,4 +6,4 @@
 
 
 
-#endif 
+#endif /* SIZE */
