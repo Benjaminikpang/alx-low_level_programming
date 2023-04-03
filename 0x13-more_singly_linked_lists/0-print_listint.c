@@ -11,7 +11,7 @@ size_t print_listint(const listint_t *h)
 {
 	size_t number_of_node = 1;
 
-	 (return 0 as number of nodes when h is null)
+	 /*return 0 as number of nodes when h is null*/
 	if (h == NULL)
 		return (0);
 
@@ -25,7 +25,7 @@ size_t print_listint(const listint_t *h)
 		number_of_node++;
 	}
 
-	 print last node
+	 /*print last node*/
 	printf("%d\n", h->n);
 
 	return (number_of_node);
